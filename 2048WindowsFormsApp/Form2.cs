@@ -47,5 +47,10 @@ namespace _2048WindowsFormsApp
         {
 
         }
+
+        private void Form2_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

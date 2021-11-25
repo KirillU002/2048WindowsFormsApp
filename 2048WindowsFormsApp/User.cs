@@ -9,6 +9,5 @@ namespace _2048WindowsFormsApp
     static public class User
     {
         static public string Name;
-        static public int Score;
     }
 }

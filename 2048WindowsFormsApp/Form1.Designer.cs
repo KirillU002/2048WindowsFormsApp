@@ -35,6 +35,8 @@
             this.рестартToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.выходToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.Имя = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Счет = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
@@ -81,24 +83,37 @@
             // рестартToolStripMenuItem
             // 
             this.рестартToolStripMenuItem.Name = "рестартToolStripMenuItem";
-            this.рестартToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.рестартToolStripMenuItem.Size = new System.Drawing.Size(116, 22);
             this.рестартToolStripMenuItem.Text = "Рестарт";
             this.рестартToolStripMenuItem.Click += new System.EventHandler(this.рестартToolStripMenuItem_Click);
             // 
             // выходToolStripMenuItem
             // 
             this.выходToolStripMenuItem.Name = "выходToolStripMenuItem";
-            this.выходToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.выходToolStripMenuItem.Size = new System.Drawing.Size(116, 22);
             this.выходToolStripMenuItem.Text = "Выход";
             this.выходToolStripMenuItem.Click += new System.EventHandler(this.выходToolStripMenuItem_Click);
             // 
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(547, 46);
+            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.Имя,
+            this.Счет});
+            this.dataGridView1.Location = new System.Drawing.Point(547, 24);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(218, 347);
+            this.dataGridView1.Size = new System.Drawing.Size(253, 414);
             this.dataGridView1.TabIndex = 4;
+            // 
+            // Имя
+            // 
+            this.Имя.HeaderText = "Имя";
+            this.Имя.Name = "Имя";
+            // 
+            // Счет
+            // 
+            this.Счет.HeaderText = "Счет";
+            this.Счет.Name = "Счет";
             // 
             // Form1
             // 
@@ -131,6 +146,8 @@
         private System.Windows.Forms.ToolStripMenuItem рестартToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem выходToolStripMenuItem;
         private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Имя;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Счет;
     }
 }
 

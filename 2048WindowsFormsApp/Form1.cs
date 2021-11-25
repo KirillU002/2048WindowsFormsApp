@@ -169,6 +169,7 @@ namespace _2048WindowsFormsApp
                     }
                     GenerateNumber();
                     ShowScore();
+                    ShowLider();
                     break;
 
                 case "Left":
@@ -216,6 +217,7 @@ namespace _2048WindowsFormsApp
                     }
                     GenerateNumber();
                     ShowScore();
+                    ShowLider();
                     break;
 
                 case "Up":
@@ -263,6 +265,7 @@ namespace _2048WindowsFormsApp
                     }
                     GenerateNumber();
                     ShowScore();
+                    ShowLider();
                     break;
 
                 case "Down":
@@ -310,6 +313,7 @@ namespace _2048WindowsFormsApp
                     }
                     GenerateNumber();
                     ShowScore();
+                    ShowLider();
                     break;
 
             }
